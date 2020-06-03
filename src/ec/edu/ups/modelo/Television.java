@@ -76,7 +76,7 @@ public class Television extends Electrodomestico{
 
     @Override
     public String toString() {
-        return super.toString() + " Television{" + "resolucion=" + resolucion + ", puertoHDMI=" + puertoHDMI + ", PrecioFinal" + obtenertPrecioFinal() + '}';
+        return super.toString() + " Television{" + "resolucion=" + resolucion + ", puertoHDMI=" + puertoHDMI + ", PrecioFinal=" + obtenertPrecioFinal() + '}';
     }
     
     

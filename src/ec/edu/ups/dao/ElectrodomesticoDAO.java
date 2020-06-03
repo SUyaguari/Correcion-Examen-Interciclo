@@ -54,7 +54,7 @@ public class ElectrodomesticoDAO implements IElectrodomesticoDAO{
         Iterator<Electrodomestico> iterador = lista.iterator();
         while(iterador.hasNext()){
             Electrodomestico electrodomestico = iterador.next();
-            if(electrodomestico instanceof Television){
+            if(electrodomestico instanceof Lavadora){
                 Lavadora lavadora = (Lavadora) electrodomestico;
                 listaLavadora.add(lavadora);
             }

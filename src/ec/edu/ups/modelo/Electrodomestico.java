@@ -98,17 +98,17 @@ public class Electrodomestico implements Comparable<Electrodomestico>{
     }
 
     public double obtenertPrecioFinal(){
-        if(consumoEnergetico=='A'){
+        if(consumoEnergetico=='A' || consumoEnergetico=='a'){
             precioBase+=100;
-        }else if(consumoEnergetico=='B'){
+        }else if(consumoEnergetico=='B' || consumoEnergetico=='b'){
             precioBase+=80;
-        }else if(consumoEnergetico=='C'){
+        }else if(consumoEnergetico=='C' || consumoEnergetico=='c'){
             precioBase+=60;
-        }else if(consumoEnergetico=='D'){
+        }else if(consumoEnergetico=='D' || consumoEnergetico=='d'){
             precioBase+=50;
-        }else if(consumoEnergetico=='E'){
+        }else if(consumoEnergetico=='E' || consumoEnergetico=='e'){
             precioBase+=30;
-        }else if(consumoEnergetico=='F'){
+        }else if(consumoEnergetico=='F' || consumoEnergetico=='f'){
             precioBase+=10;
         }
         if(peso>=0 && peso<=19){
